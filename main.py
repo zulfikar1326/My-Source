@@ -3,36 +3,6 @@ import time as tm
 import os 
 
 
-# def outputArray():
-#     img = cv.imread("Myimg.jpg")  #Membaca Gambar Dalam Betuk Array numpy
-#     print(img)
-#     return img
-
-# def outputDisplay(img):
-#     outputHasil = cv.imshow("Mukak Gw",img) #Membuka img
-#     cv.waitKey(1)
-    
-
-# while True:
-   
-#    opsi = input("\n1. Tampilkan Gambar dalam bentuk Array\n 2Tampilkan Gambar : ")
-   
-#    if opsi == "1":
-#         hasil = outputArray()
-        
-#    elif opsi == "2":
-#        outputDisplay(hasil)
-       
-#    else:
-#        print("KeyWord Anda Salah")
-       
-
-    # OPRASI DASAR OPENCV DALAM BENTUK GAMBAR 
-    
-foto = cv.imread('Myfoto.jpg')
-# resize_foto = cv.resize(foto,(100,200)) # Mengatur Ukuran foto menjadi tertentu 
-
-
 
 def template():
     templat = """
